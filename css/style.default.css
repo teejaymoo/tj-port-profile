@@ -1,10 +1,10 @@
-/* 
-========================================= 
-========================================= 
+/*
+=========================================
+=========================================
 
 Bootstrapious Boilerplate Template
 
-========================================= 
+=========================================
 ========================================= */
 /*
 *
@@ -218,7 +218,7 @@ MAP SECTION
   height: 400px;
 }
 
-.map-custom-popup .leaflet-popup-content-wrapper {
+.map-custom-popup .leaflet-popup-content-wrapper {}
   overflow: hidden;
   padding: 0;
   border-radius: 0;
