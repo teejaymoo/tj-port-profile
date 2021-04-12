@@ -13,6 +13,12 @@ Bootstrapious Boilerplate Template
 * =====================
 *
 */
+
+.masthead-avatar{
+  max-height: -webkit-fill-available;
+  max-width: -webkit-fill-available;
+  border-radius: 100px;
+}
 .text-bold {
   font-weight: 700;
 }
