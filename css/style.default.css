@@ -14,7 +14,7 @@ Bootstrapious Boilerplate Template
 *
 */
 
-.masthead-avatar{
+#profile-pic {
   max-height: -webkit-fill-available;
   max-width: -webkit-fill-available;
   border-radius: 100px;
