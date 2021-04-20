@@ -80,20 +80,20 @@ $(function () {
 
 function map() {
 
-    var mapId = 'map',
+    let mapId = 'map',
         mapCenter = [53.14, 8.22],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
 
-        var icon = L.icon({
+        let icon = L.icon({
             iconUrl: 'img/marker.png',
             iconSize: [25, 37.5],
             popupAnchor: [0, -18],
             tooltipAnchor: [0, 19]
         });
 
-        var dragging = false,
+        let dragging = false,
             tap = false;
 
         if ($(window).width() > 700) {
@@ -101,7 +101,7 @@ function map() {
             tap = true;
         }
 
-        var map = L.map(mapId, {
+        let map = L.map(mapId, {
             center: mapCenter,
             zoom: 13,
             dragging: dragging,
@@ -109,7 +109,7 @@ function map() {
             scrollWheelZoom: false
         });
 
-        var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+        let Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
             attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             subdomains: 'abcd',
             minZoom: 0,
@@ -124,7 +124,7 @@ function map() {
         });
 
         if (mapMarker) {
-            var marker = L.marker(mapCenter, {
+            let marker = L.marker(mapCenter, {
                 icon: icon
             }).addTo(map);
 

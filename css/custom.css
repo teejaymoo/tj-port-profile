@@ -1,1 +1,4 @@
-/* your styles go here */
+#pictures-div {
+  max-width: fit-content;
+  display: inline-block;
+}
