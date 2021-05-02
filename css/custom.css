@@ -2,3 +2,23 @@
   max-width: fit-content;
   display: inline-block;
 }
+
+.description-div {
+  margin: 0 0 10% 0;
+}
+
+#tick {
+  max-width: 175px;
+}
+
+#land {
+  max-width: 175px;
+}
+
+#hq {
+  max-width: 175px;
+}
+
+#bug {
+  max-width: 175px;
+}
